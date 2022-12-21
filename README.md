@@ -4,7 +4,7 @@
 Includes
 + Nuxt, Nuxt Content
 + sass for use in <style lang="sass">
-+ unoCSS atomic engine
++ unoCSS atomic engine (using WindCSS with attributify)
 
 Look at the [Content documentation](https://content-v2.nuxtjs.org/) to learn more.
 
@@ -28,7 +28,11 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm run dev
 ```
 
 ## Production

@@ -18,7 +18,7 @@ useHead({
 <template>
   <div min-h-screen flex flex-col>
     <TheHeader p-4 mb-8 />
-    <main p-4 lg:p-0 max-w-prose m-auto flex-grow>
+    <main p-4 lg:p-0 w-full max-w-prose m-auto flex-grow>
       <NuxtPage />
     </main>
     <TheFooter p-4 min-h-30 />
